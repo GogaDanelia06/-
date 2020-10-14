@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 14 11:20:23 2020
+
+@author: gogadanelia
+"""
+
+#Task_1
+print("Task_1")
+list = {
+  "0": "10",
+  "1": "10",
+}
+list.update({"22": "23"})
+print(list)
+
+#Task_2
+print("Task_2")
+dic1={1:10, 2:20}
+dic2={3:30, 4:40}
+dic3={5:50,6:60}
+thisdict = dic1.update(dic2)
+thisdict = dic1.update(dic3)
+print(dic1)
+
+#Task_3
+print("Task_3")
+d = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+if 3 in d:
+  print("10 Is A Primary Key!")
+else:
+  print("10 Is Not A Primary Key!")
+  
+#Task_4
+print("Task_4")
+  
+  
+#Task_5
+print("Task_5")
+d = dict()
+for x in range(1,11):
+  d[x] = x**2
+print(d)
+
+#Task_6
+print("Task_6")
+
+#Task_7
+print("Task_7")
+set = {0,1,2,3,4}
+x = {11,5,5}
+set.update(x)
+print(set)
+set.remove(3)
+set.remove(5)
+print(set)
+for i in set:
+  print(i)
+print(" Element Numbers: ",len(set))
+
+#Task_8
+print("Task_8")
+set1 = {"green", "blue"}
+set2 = {"blue", "yellow"}
+set = set1.union(set2)
+s = set1.intersection(set2)
+d1 = set1.difference(set2)
+d2 = set2.difference(set1)
+d = d1.union(d2)
+sim = set1.symmetric_difference(set2)
+print(set)
+print(s)
+print(d)
+print(sim)
+
+#Task_9
+print("Task_9")
